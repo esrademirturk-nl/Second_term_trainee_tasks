@@ -34,7 +34,8 @@ body {
     border-radius: 50%;
     border: 3px solid #38bdf8;
     object-fit: cover;
-    margin-bottom: 15px;
+    display: inline-block; /* Ortalamayı garantiye almak için */
+    margin: 0 auto 15px auto; /* Üst/Alt boşlukları koruyup sağ/solu otomatik ortalar */
 }
 
 .profile h1 {
