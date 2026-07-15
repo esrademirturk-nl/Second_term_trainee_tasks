@@ -12,6 +12,18 @@
   --transition: 260ms cubic-bezier(.22,.9,.3,1);
 }
 
+html[data-theme="dark"]{
+  --bg: #000000;
+  --bg-deep: #000000;
+  --panel: #000000;
+  --border: #2e2e2e;
+  --text: #ffffff;
+  --text-dim: #b3b3b3;
+  --accent: #ffffff;
+  --accent-dim: rgba(255,255,255,0.1);
+  --ok: #ffffff;
+}
+
 *{ box-sizing: border-box; }
 
 body{
@@ -130,6 +142,73 @@ footer{
   color: var(--text-dim);
 }
 footer .sym{ color: var(--ok); }
+
+/* Theme toggle */
+.toggle{
+  align-self:flex-start;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  background:transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family:'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor:pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+.toggle:hover{ color: var(--accent); border-color: var(--accent); }
+
+/* Countdown — styled like a CI build timer */
+.build{
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px 16px 16px;
+  background: rgba(255,255,255,0.02);
+}
+.build .label{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  font-size: 11.5px;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+}
+.build .blip{
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--ok);
+  animation: blink 1.4s ease-in-out infinite;
+}
+@keyframes blink{ 0%,100%{ opacity:1; } 50%{ opacity:0.25; } }
+
+.build-grid{
+  display:flex;
+  justify-content:space-between;
+  gap: 8px;
+}
+.build-cell{
+  flex:1;
+  text-align:center;
+  padding: 8px 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.build-cell .val{
+  display:block;
+  font-size: clamp(18px, 5vw, 22px);
+  font-weight: 700;
+  color: var(--text);
+}
+.build-cell .unit{
+  display:block;
+  margin-top: 4px;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
 
 @media (max-width: 380px){
   .content{ padding: 22px 18px 24px; }
