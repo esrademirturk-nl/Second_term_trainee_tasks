@@ -35,8 +35,8 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
 ### ⚡ Bölüm 2: JavaScript (4-6. Gün)
 * **Görev:** İlk görevde yaptığınız Linktree sayfasına "Karanlık Mod" ve "Geri Sayım Sayacı" ekleyin.
 * **Beklentiler:**
-  - [ ] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
-  - [ ] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
+  - [x] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
+  - [x] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
 
 ### 🐘 Bölüm 3: PHP (7-9. Gün)
 * **Görev:** İletişim formu verilerini veritabanı olmadan sunucudaki bir `.txt` dosyasına kaydedin.
