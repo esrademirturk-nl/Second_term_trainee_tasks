@@ -27,10 +27,10 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
 ### 🎨 Bölüm 1: HTML & CSS (1-3. Gün)
 * **Görev:** Kendiniz için tek sayfalık bir "Linktree" klonu (Sosyal medya link ağ sayfası) yapın.
 * **Beklentiler:**
-  - [ ] HTML5 semantik etiketlerini kullanın.
-  - [ ] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
-  - [ ] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
-  - [ ] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
+  - [x] HTML5 semantik etiketlerini kullanın.
+  - [x] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
+  - [x] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
+  - [x] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
 
 ### ⚡ Bölüm 2: JavaScript (4-6. Gün)
 * **Görev:** İlk görevde yaptığınız Linktree sayfasına "Karanlık Mod" ve "Geri Sayım Sayacı" ekleyin.
