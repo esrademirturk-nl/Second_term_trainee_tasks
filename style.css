@@ -81,3 +81,43 @@ footer {
     padding: 12px 16px;
   }
 }
+
+.countdown-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.countdown-box h2 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.countdown-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dark-toggle {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #fff;
+  color: #2575fc;
+}
+
+body.dark-mode {
+  background: #111;
+}
+
+body.dark-mode .link-btn {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .link-btn:hover {
+  background: #fff;
+  color: #111;
+}
