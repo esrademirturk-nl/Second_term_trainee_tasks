@@ -27,23 +27,23 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
 ### 🎨 Bölüm 1: HTML & CSS (1-3. Gün)
 * **Görev:** Kendiniz için tek sayfalık bir "Linktree" klonu (Sosyal medya link ağ sayfası) yapın.
 * **Beklentiler:**
-  - [ ] HTML5 semantik etiketlerini kullanın.
-  - [ ] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
-  - [ ] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
-  - [ ] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
+  - [x] HTML5 semantik etiketlerini kullanın.
+  - [x] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
+  - [x] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
+  - [x] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
 
 ### ⚡ Bölüm 2: JavaScript (4-6. Gün)
 * **Görev:** İlk görevde yaptığınız Linktree sayfasına "Karanlık Mod" ve "Geri Sayım Sayacı" ekleyin.
 * **Beklentiler:**
-  - [ ] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
-  - [ ] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
+  - [x] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
+  - [x] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
 
 ### 🐘 Bölüm 3: PHP (7-9. Gün)
 * **Görev:** İletişim formu verilerini veritabanı olmadan sunucudaki bir `.txt` dosyasına kaydedin.
 * **Beklentiler:**
-  - [ ] Ad, Soyad ve Mesaj alanlarından oluşan basit bir HTML formu oluşturun.
-  - [ ] Formun `action` parametresi bir PHP dosyasına yönlensin ve verileri `POST` metoduyla göndersin.
-  - [ ] PHP tarafında bu verileri alıp, sunucu içinde `mesajlar.txt` adlı bir dosyaya her yeni mesaj alt alta gelecek şekilde yazdırın.
+  - [x] Ad, Soyad ve Mesaj alanlarından oluşan basit bir HTML formu oluşturun.
+  - [x] Formun `action` parametresi bir PHP dosyasına yönlensin ve verileri `POST` metoduyla göndersin.
+  - [x] PHP tarafında bu verileri alıp, sunucu içinde `mesajlar.txt` adlı bir dosyaya her yeni mesaj alt alta gelecek şekilde yazdırın.
 
 ### 🌐 Bölüm 4: Laravel (10-12. Gün)
 * **Görev:** Hazır kimlik doğrulama (Giriş Yap / Kayıt Ol) sistemini ayağa kaldırın.
