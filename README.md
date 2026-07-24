@@ -51,14 +51,14 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
   - [x] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
   - [x] `Laravel Breeze` paketini projenize dahil edin.
   - [x] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
-  - [ ] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
+  - [x] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
 
 ### ⚛️ Bölüm 5: React (13-15. Gün)
 * **Görev:** Vite veya Create React App kullanarak dinamik bir "Yapılacaklar (Todo) Listesi" yapın.
 * **Beklentiler:**
-  - [ ] Projeyi bileşenlere (Component) ayırın (Örn: `TodoInput`, `TodoList`, `TodoItem`).
-  - [ ] `useState` hook'u kullanarak listeye yeni eleman ekleme ve listeden eleman silme özelliklerini yapın.
-  - [ ] Sayfada anlık saati gösteren küçük bir dijital saat bileşeni ekleyin.
+  - [x] Projeyi bileşenlere (Component) ayırın (Örn: `TodoInput`, `TodoList`, `TodoItem`).
+  - [x] `useState` hook'u kullanarak listeye yeni eleman ekleme ve listeden eleman silme özelliklerini yapın.
+  - [x] Sayfada anlık saati gösteren küçük bir dijital saat bileşeni ekleyin.
 
 ### ⚙️ Bölüm 6: Node.js (16-18. Gün)
 * **Görev:** Express.js kullanarak statik bir JSON verisi dönen "Kitap Listesi API'si" yazın.
