@@ -27,45 +27,45 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
 ### 🎨 Bölüm 1: HTML & CSS (1-3. Gün)
 * **Görev:** Kendiniz için tek sayfalık bir "Linktree" klonu (Sosyal medya link ağ sayfası) yapın.
 * **Beklentiler:**
-  - [ ] HTML5 semantik etiketlerini kullanın.
-  - [ ] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
-  - [ ] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
-  - [ ] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
+  - [x] HTML5 semantik etiketlerini kullanın.
+  - [x] Sayfa dikeyde ortalanmış ve esnek (`Flexbox` veya `Grid`) olmalı.
+  - [x] Mobil cihazlarla tam uyumlu (Responsive) olmalı.
+  - [x] Link butonlarına gelindiğinde (Hover) yumuşak bir renk veya büyüme efekti ekleyin.
 
 ### ⚡ Bölüm 2: JavaScript (4-6. Gün)
 * **Görev:** İlk görevde yaptığınız Linktree sayfasına "Karanlık Mod" ve "Geri Sayım Sayacı" ekleyin.
 * **Beklentiler:**
-  - [ ] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
-  - [ ] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
+  - [x] Sayfaya bir buton ekleyin. Butona basıldığında arka plan rengi siyah, yazılar beyaz olsun (Karanlık Mod).
+  - [x] Sayfanın üst kısmına "Stajın Bitmesine Kalan Süre" başlığıyla canlı akan bir geri sayım sayacı (`setInterval` kullanarak) ekleyin.
 
 ### 🐘 Bölüm 3: PHP (7-9. Gün)
 * **Görev:** İletişim formu verilerini veritabanı olmadan sunucudaki bir `.txt` dosyasına kaydedin.
 * **Beklentiler:**
-  - [ ] Ad, Soyad ve Mesaj alanlarından oluşan basit bir HTML formu oluşturun.
-  - [ ] Formun `action` parametresi bir PHP dosyasına yönlensin ve verileri `POST` metoduyla göndersin.
-  - [ ] PHP tarafında bu verileri alıp, sunucu içinde `mesajlar.txt` adlı bir dosyaya her yeni mesaj alt alta gelecek şekilde yazdırın.
+  - [x] Ad, Soyad ve Mesaj alanlarından oluşan basit bir HTML formu oluşturun.
+  - [x] Formun `action` parametresi bir PHP dosyasına yönlensin ve verileri `POST` metoduyla göndersin.
+  - [x] PHP tarafında bu verileri alıp, sunucu içinde `mesajlar.txt` adlı bir dosyaya her yeni mesaj alt alta gelecek şekilde yazdırın.
 
 ### 🌐 Bölüm 4: Laravel (10-12. Gün)
 * **Görev:** Hazır kimlik doğrulama (Giriş Yap / Kayıt Ol) sistemini ayağa kaldırın.
 * **Beklentiler:**
-  - [ ] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
-  - [ ] `Laravel Breeze` paketini projenize dahil edin.
-  - [ ] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
-  - [ ] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
+  - [x] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
+  - [x] `Laravel Breeze` paketini projenize dahil edin.
+  - [x] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
+  - [x] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
 
 ### ⚛️ Bölüm 5: React (13-15. Gün)
 * **Görev:** Vite veya Create React App kullanarak dinamik bir "Yapılacaklar (Todo) Listesi" yapın.
 * **Beklentiler:**
-  - [ ] Projeyi bileşenlere (Component) ayırın (Örn: `TodoInput`, `TodoList`, `TodoItem`).
-  - [ ] `useState` hook'u kullanarak listeye yeni eleman ekleme ve listeden eleman silme özelliklerini yapın.
-  - [ ] Sayfada anlık saati gösteren küçük bir dijital saat bileşeni ekleyin.
+  - [x] Projeyi bileşenlere (Component) ayırın (Örn: `TodoInput`, `TodoList`, `TodoItem`).
+  - [x] `useState` hook'u kullanarak listeye yeni eleman ekleme ve listeden eleman silme özelliklerini yapın.
+  - [x] Sayfada anlık saati gösteren küçük bir dijital saat bileşeni ekleyin.
 
 ### ⚙️ Bölüm 6: Node.js (16-18. Gün)
 * **Görev:** Express.js kullanarak statik bir JSON verisi dönen "Kitap Listesi API'si" yazın.
 * **Beklentiler:**
-  - [ ] `npm init` ile projeyi başlatıp `express` paketini yükleyin.
-  - [ ] Kodun içerisinde elle yazılmış (hardcoded) 3-4 adet kitap nesnesi barındıran bir dizi (Array) oluşturun.
-  - [ ] `/api/books` rotasına (Route) `GET` isteği atıldığında bu kitap listesini JSON formatında döndürün.
+  - [x] `npm init` ile projeyi başlatıp `express` paketini yükleyin.
+  - [x] Kodun içerisinde elle yazılmış (hardcoded) 3-4 adet kitap nesnesi barındıran bir dizi (Array) oluşturun.
+  - [x] `/api/books` rotasına (Route) `GET` isteği atıldığında bu kitap listesini JSON formatında döndürün.
 
 ### 🛠️ Bölüm 7: TypeScript (19-21. Gün)
 * **Görev:** Bir önceki Node.js API görevine TypeScript entegre ederek tip güvenliği sağlayın.
