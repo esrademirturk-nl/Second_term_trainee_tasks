@@ -48,9 +48,9 @@ Bu depo (repository), staj süreniz boyunca tamamlamanız gereken temel web tekn
 ### 🌐 Bölüm 4: Laravel (10-12. Gün)
 * **Görev:** Hazır kimlik doğrulama (Giriş Yap / Kayıt Ol) sistemini ayağa kaldırın.
 * **Beklentiler:**
-  - [ ] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
-  - [ ] `Laravel Breeze` paketini projenize dahil edin.
-  - [ ] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
+  - [x] Bilgisayarınızda sıfır bir Laravel projesi oluşturun.
+  - [x] `Laravel Breeze` paketini projenize dahil edin.
+  - [x] Yerel veritabanı (MySQL/SQLite) bağlantısını yapıp `php artisan migrate` komutunu çalıştırın.
   - [ ] Kayıt olma, giriş yapma ve şifre sıfırlama ekranlarının sorunsuz çalıştığını tarayıcıda doğrulayın.
 
 ### ⚛️ Bölüm 5: React (13-15. Gün)
